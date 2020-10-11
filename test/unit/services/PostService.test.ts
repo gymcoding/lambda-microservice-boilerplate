@@ -16,7 +16,6 @@ describe('PostService', () => {
   afterAll(() => {
     console.log('PostService afterAll')
   })
-
   const request = {
     title: '테스트 제목 입니다.',
     content: '테스트 내용 입니다.'
